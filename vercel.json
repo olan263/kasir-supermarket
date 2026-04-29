@@ -7,8 +7,5 @@
     },
     "routes": [
         { "src": "/(.*)", "dest": "/api/index.php" }
-    ],
-    "config": {
-        "nodeVersion": "20.x"
-    }
+    ]
 }
