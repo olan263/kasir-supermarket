@@ -1,6 +1,8 @@
 <?php
-// Jarak dari folder 'api' ke root adalah satu tingkat ke atas (../)
+// Memanggil autoload dari root
 require __DIR__ . '/../vendor/autoload.php';
+
+// Memanggil file bootstrap/app.php yang baru saja kamu edit
 $app = require_once __DIR__ . '/../bootstrap/app.php';
 
 $kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
