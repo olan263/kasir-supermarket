@@ -1,6 +1,4 @@
 <?php
-// Baris ini akan menghentikan semua proses Laravel dan cuma nampilin tulisan di bawah
-die("PHP BERHASIL JALAN DI VERCEL - OLAN"); 
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
