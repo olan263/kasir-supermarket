@@ -1,10 +1,13 @@
 <?php
+// Baris ini akan menghentikan semua proses Laravel dan cuma nampilin tulisan di bawah
+die("PHP BERHASIL JALAN DI VERCEL - OLAN"); 
 
-// 1. Aktifkan Debugging Paksa
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+require __DIR__ . '/../vendor/autoload.php';
+// ... sisa kode lainnya
 // 2. Memanggil autoload dari folder vendor di root
 require __DIR__ . '/../vendor/autoload.php';
 
